@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Switch, Route, HashRouter } from 'react-router-dom';
 import Login from './pages/Login';
 import Meals from './pages/Meals';
 import Drinks from './pages/Drinks';
@@ -18,7 +18,7 @@ import NotFound from './pages/NotFound';
 
 function Routes() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path="/" component={ Login } />
         <Route exact path="/comidas" component={ Meals } />
@@ -47,7 +47,7 @@ function Routes() {
         <Route exact path="/receitas-favoritas" component={ RecipesFavorites } />
         <Route path="*" component={ NotFound } />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
