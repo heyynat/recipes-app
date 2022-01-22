@@ -5,7 +5,6 @@
 
 Tabela de conteúdos
 =================
-<!--ts-->
    * [Sobre](#sobre)
    * [Tabela de Conteúdos](#tabela-de-conte%C3%BAdos)
    * [Como usar](#como-usar)
@@ -13,7 +12,6 @@ Tabela de conteúdos
       * [Instalação](#instala%C3%A7%C3%A3o)
    * [Tecnologias](#tecnologias)
    * [Contribuição](#contribui%C3%A7%C3%A3o)
-<!--te-->
 
 Sobre
 =================
